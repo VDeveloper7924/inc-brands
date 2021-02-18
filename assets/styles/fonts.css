@@ -1,0 +1,49 @@
+/*
+ * Myriad Pro Fonts
+ */
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('/assets/fonts/myriad-pro/Myriad Pro Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Light'), url('/assets/fonts/myriad-pro/Myriad Pro Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Semibold'), url('/assets/fonts/myriad-pro/Myriad Pro Semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Myriad Pro Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Bold'), url('/assets/fonts/myriad-pro/Myriad Pro Bold.woff') format('woff');
+}
+
+/*
+ * Karla Fonts
+ */
+
+@font-face {
+  font-family: 'Karla Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Karla Bold'), url('/assets/fonts/karla/Karla-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Karla Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Karla Regular'), url('/assets/fonts/karla/Karla-Regular.woff') format('woff');
+}

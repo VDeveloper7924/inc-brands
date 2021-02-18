@@ -1,0 +1,47 @@
+html,
+html * {
+  outline: none;
+  font-family: 'Karla Regular';
+}
+
+html *:focus {
+  outline: none !important;
+}
+
+.text-lr-border::before {
+  content: ' ';
+  width: 100px;
+  height: 1px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.text-lr-border::after {
+  content: ' ';
+  width: 100px;
+  height: 1px;
+  background-color: white;
+  margin-left: 10px;
+}
+
+::placeholder {
+  color: white !important;
+  font-family: 'Karla Regular';
+}
+
+:-ms-input-placeholder {
+  color: white !important;
+  font-family: 'Karla Regular';
+}
+
+::-ms-input-placeholder {
+  color: white !important;
+  font-family: 'Karla Regular';
+}
+
+@media (max-width: 640px) {
+  .text-lr-border::before,
+  .text-lr-border::after {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "html.format.endWithNewline": true,
+  "editor.detectIndentation": false,
+  "prettier.printWidth": 140
+}
